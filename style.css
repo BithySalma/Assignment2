@@ -1,0 +1,139 @@
+.custom-mt{
+    margin-top: 10%; 
+}
+.custom-mb{
+    margin-bottom: 10%;
+}
+
+.causes-container p{
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+
+.skill-tab{
+    border-bottom: 1px solid black;
+}
+
+
+
+/* CSS Animation for card hover effect */
+.animate-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scale and shadow */
+  }
+
+  /* Scale up card and add shadow on hover */
+  .animate-card:hover {
+    transform: scale(1.05); /* Scale the card up slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow intensity on hover */
+  }
+
+ 
+  .donate-container{
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+
+
+.blog-container{
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.contact-container{
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+
+
+  .cbp-item {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Parent container */
+.cbp-item {
+    position: relative;
+    overflow: hidden;
+    width: 323px; /* Adjust width */
+    height: 292px; /* Adjust height */
+}
+
+/* Overlay styling */
+.cbp-item .overlay {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 26px;
+    background: linear-gradient(45deg, rgba(11, 11, 11, 0.269) 20%, rgba(0, 0, 0, 0.68) 100%);
+    z-index: 111;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Hover effect */
+.cbp-item:hover .overlay {
+    opacity: 1;
+}
+
+.cbpr-item {
+    position: relative;
+    
+}
+
+.cbpr-item img{
+    width: 100%;
+    
+}
+
+
+.cbpr-item .overlay {
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    bottom: 18px;
+    left: 30px;
+    background: linear-gradient(45deg, rgba(11, 11, 11, 0.269) 20%, rgba(0, 0, 0, 0.68) 100%);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cbpr-item:hover .overlay, .cbpb-item:hover .overlay {
+    opacity: 1;
+}
+
+
+.cbpb-item {
+    position: relative;
+}
+
+.cbpb-item .overlay {
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    bottom: 18px;
+    left: 30px;
+    background: linear-gradient(45deg, rgba(11, 11, 11, 0.269) 20%, rgba(0, 0, 0, 0.68) 100%);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cbpb-item:hover .overlay, .cbpb-item:hover .overlay {
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--External Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+     <!--External Css -->
+     <link rel="stylesheet" href="style.css">
+    
+  </head>
+</head>
+<body>
+     <!--Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top fixed-top" style="backdrop-filter: blur(5px);
+    background-color: transparent; ">
+      <div class="container-fluid">
+          <p class="navbar-brand fs-1 text-warning" href="#">CHARITY</p>
+        <button class="navbar-toggler" style="    background-color:rgba(32, 32, 8, 0.751);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a class="nav-link" style="color:yellow" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:yellow" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:yellow" href="#">CAUSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:yellow" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:yellow" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:yellow" href="#">CONTACT</a>
+            </li>
+            
+          
+              <button type="button" style="color:rgb(4, 4, 4); background:yellow;
+                border: 2px solid #fdfcfc;border-radius: 5px; padding: 10px 20px;">Donate Now</button>
+          
+
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!--Hero-section -->
+        <div id="carouselExampleCaptions" class="carousel slide" style="padding-bottom: 5%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        
+        <div class="carousel-inner">
+           
+          <div class="carousel-item active">
+            <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+           <!-- <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(18, 17, 17, 0.253); z-index: 1;"></div> -->
+           <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1" >Help for Homeless</h5>
+              <p class="fw-bold" style="color:yellow">
+                Some representative placeholder content for the first slide.</p>
+            </div>
+            
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="images//banner2.jpg" class="d-block w-100" alt="...">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(18, 17, 17, 0.253); z-index: 1;"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1">Help for Hopeless</h5>
+              <p style="color:yellow" class="fw-bold">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="images//banner3.jpg" class="d-block w-100" alt="...">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(18, 17, 17, 0.253); z-index: 1;"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1">Help for Refugees</h5>
+              <p class="fw-bold" style="color:yellow">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+    
+    
+
+        <!-- About-->
+        <div class="container text-center custom-mt custom-mb" style="padding-bottom: 10%;">
+          <div class="row">
+            <div class="col">
+              <p class="col fs-1 text-start">About Us</p>
+              <p class="text-start">we are a compassionate community dedicated to making a 
+                meaningful difference in the lives of those in need.
+                 Founded on the belief that everyone deserves hope,
+                  dignity, and support, we strive to bridge the 
+                  gap between those who want to give and those who 
+                  need help. Our team is united by a shared purpose:
+                   to create sustainable change through empathy, 
+                   transparency, and integrity.</p>
+                 <div style="text-align: left; padding-top: 23px; ">
+                  <button  type="button" style="color:white; background:black;
+                  border: 2px solid #d9ff00;border-radius: 5px; padding: 10px 20px;">Read more</button>   
+                 </div>
+                 </div>
+                 <div class="col" style="padding-top: 23px;">
+                 <img src="images/about.jpg" alt="">
+                 </div>
+                </div>
+              </div>
+
+              <!-- Our Causes -->
+
+              <div class="causes-container" style="margin-bottom: 10%;">
+                <div>
+                  <p class="fs-1 text-start text-center">Our Causes</p>
+                  <p class="text-center">We tackle critical issues like clean water access, education, healthcare, and poverty. Each cause aims to create 
+                    lasting change and improve lives. Join us in making a difference for those who need it most.</p>
+                </div>
+              </div>
+
+        <div class="container text-center" style="margin-bottom:4%; padding-left:2%; padding-right:2%;">
+                <div class="row align-items-center">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/case2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-12" style="margin-top: 6%;">
+                    <h4>Donate Money</h4>
+                    <p>Help provide quality education and resources to underprivileged children. Your support can change lives.</p>
+                    <button type="button" class="btn" style="color: white; 
+                    background: black; border: 2px solid #d9ff00; border-radius: 5px; padding: 10px 20px; margin-bottom: 3%;">
+                    Donate Now</button>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/case3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="container text-center mt-4" style="padding-left:2%; padding-right:2%; margin-bottom: 19%;" >
+                <div class="row align-items-center">
+
+                  <div class="col-lg-4 col-md-4 col-12" style="margin-top: 6%;">
+                    <h4>Help Homeless</h4>
+                    <p>Help provide quality education and resources to underprivileged children. Your support can change lives.</p>
+                    <button type="button" 
+                    class="btn" 
+                    style="color: white; background: black; border: 2px solid #d9ff00; 
+                    border-radius: 5px; padding: 10px 20px; margin-bottom: 3%;">Donate Now</button>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/case4.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-12" style="margin-top: 6%;">
+                    <h4>Secure Future</h4>
+                    <p>Help provide quality education and resources to underprivileged children. Your support can change lives.</p>
+                    <button type="button"
+                     class="btn" style="color: white; background: black;
+                      border: 2px solid #d9ff00; border-radius: 5px;
+                       padding: 10px 20px; margin-bottom: 3%;">Donate Now</button>
+                  </div>
+                </div>
+              </div>
+              
+               <!-- Our Donators -->
+
+               <div class="donate-container" style="margin-bottom: 8%;">
+                <div>
+                  <p class="fs-1 text-start text-center">Our Donators</p>
+                  <p class="text-center">Our donors are the backbone of our mission.
+                     With their generous contributions,
+                      we’re able to support communities in need,
+                       providing essential resources, education, 
+                       and opportunities for a better future.
+                        Their kindness and dedication inspire us every day,
+                         and together, we’re making a lasting impact 
+                         on lives around the world.</p>
+                </div>
+              </div>
+            
+
+              
+
+    <!-- Container for responsive grid layout -->
+      <div class="container text-center" style=" padding-left: 10%;padding-right: 10%; padding-bottom: 10%;">
+    <!-- Row with responsive column settings: 1 column on small screens, 3 on medium and up -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm animate-card">
+          <img src="images/donate1.jpg" class="card-img-top" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Jasika Tawin</h4>
+            <p class="card-text">An architect and engineer dedicated to building safe community spaces for those in need.</p>
+            <a href="#" class="btn btn-dark" style="border: 2px solid #d9ff00; border-radius: 5px;">See Profile</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm animate-card">
+          <img src="images/donate2.jpg" class="card-img-top" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Jane Doe</h4>
+            <p class="card-text">A software developer funding tech education for low-income youth,building safe community for those in need.</p>
+            <a href="#" class="btn btn-dark" style="border: 2px solid #d9ff00; border-radius: 5px;">See Profile</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm animate-card">
+          <img src="images/donate4.jpg" class="card-img-top" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Hayden Wood</h4>
+            <p class="card-text">A mental health advocate funding counseling services for underserved communities.</p>
+            <a href="#" class="btn btn-dark" style="border: 2px solid #d9ff00; border-radius: 5px;">See Profile</a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+   
+   <!-- Our Gallery -->
+
+  <div class="gallery-container" style="margin-bottom: 8%; margin-top: 8%;">
+    <div>
+        <p class="fs-1 text-center">Our Gallery</p>
+        <p class="text-center">Capturing moments of hope, change, and community impact.</p>
+    </div>
+</div>
+
+<div class="container text-center" style="padding-bottom: 16%;">
+  <div class="row" style="gap: 18px;">
+    <div class="col">
+      <img src="images/portfolio1.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="images/portfolio2.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="images/portfolio3.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="images/portfolio4.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="images/portfolio5.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="images/portfolio6.jpg" alt="">
+    </div>
+    </div>
+</div>
+
+
+
+
+ <!-- Our Blog -->
+
+ <div class="blog-container" style="margin-bottom: 8%;">
+  <div>
+    
+    <p class="fs-1 text-start text-center">Our Blogs</p>
+    <p class="text-center">A charity-focused blog paragraph highlights the impact 
+      and importance of giving back to the community, shedding light
+       on various charitable causes, initiatives, or 
+       stories of individuals making a difference. 
+       This type of content often aims to inspire readers
+        to take action, whether by volunteering, donating,
+         or spreading awareness. It emphasizes empathy, community
+          support, and the positive change that collective efforts 
+          can bring to those in need. By using real-world examples,
+           statistics, or testimonials, these paragraphs connect with
+            readers on an emotional level, encouraging a sense of 
+            purpose and social responsibility</p>
+  </div>
+</div>
+
+
+
+
+<!-- Container for responsive grid layout -->
+<div class="container text-center" style=" padding-left: 10%;padding-right: 10%; padding-bottom: 18%;">
+<!-- Row with responsive column settings: 1 column on small screens, 3 on medium and up -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+<!-- Card 1 -->
+<div class="col">
+<div class="card h-100 shadow-sm animate-card">
+<img src="images/blog1.jpg" class="card-img-top" alt="Card image" style="width:100%">
+<div class="card-body">
+  <p>20 november 2019</p>
+<h4 class="card-title text-warning">Education Plan</h4>
+<p class="card-text">An architect and engineer dedicated to building safe community spaces for those in need.</p>
+<a href="#" class="btn btn-dark" style="border: 2px solid #d9ff00; border-radius: 5px;">Read More</a>
+</div>
+</div>
+</div>
+
+<!-- Card 2 -->
+<div class="col">
+<div class="card h-100 shadow-sm animate-card">
+<img src="images/blog2.jpg" class="card-img-top" alt="Card image" style="width:100%">
+<div class="card-body">
+  <p>20 november 2019</p>
+<h4 class="card-title text-warning">Help Citizens</h4>
+<p class="card-text">A software developer funding tech education for low-income youth,building safe community for those in need.</p>
+<a href="#" class="btn btn-dark" style="border: 2px solid #d9ff00; border-radius: 5px;">Read More</a>
+</div>
+</div>
+</div>
+
+<!-- Card 3 -->
+<div class="col">
+<div class="card h-100 shadow-sm animate-card">
+<img src="images/blog3.jpg" class="card-img-top" alt="Card image" style="width:100%">
+<div class="card-body">
+  <p>20 november 2019</p>
+<h4 class="card-title text-warning">Distribute Happiness</h4>
+<p class="card-text">A mental health advocate funding counseling services for underserved communities.</p>
+<a href="#" class="btn btn-dark" style="border: 2px solid #d9ff00; border-radius: 5px;">Read More</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<!-- Contact -->
+
+<div class="contact-container" style="margin-bottom: 8%;">
+  <div>
+    
+    <p class="fs-1 text-start text-center">Contact Us</p>
+    <p class="text-center">We'd love to hear from you! Whether you have
+       questions, feedback, or need assistance, our team is here to help.
+        Feel free to reach out to us via the contact form, email, 
+        or phone. We are committed to providing prompt and helpful
+         responses to ensure you have the best experience with us. 
+         Your thoughts and inquiries are important, and we look forward
+          to connecting with you!"</p>
+  </div>
+</div>    
+          
+
+
+<div class="container text-center" style="padding-bottom: 12%;">
+ 
+  <div class="row justify-content-center">
+    <div class="col-4 text-start">
+     <h1 class="text-warning fw-light">Come Visit Us</h1>
+     <p>123 Street New York City , United States Of America.</p>
+     <p>Office Telephone : 001 01085379709</p>
+     <p>Mobile : 001 63165370895</p>
+     <p>Email: admin@website.com</p>
+     <p>Inquiries: email@website.com</p>
+     <p>Mon-Sat: 9am to 6pm</p>
+   </div>
+    <div class="col-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3024.5260158661604!2d-73.82956471057354!3d40.70643545908709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s123%20Street%20New%20York%20City%20%2C%20United%20States%20Of%20America.%20%20Office%20Telephone%20%3A%20001%2001085379709!5e0!3m2!1sen!2sbd!4v1731317474651!5m2!1sen!2sbd" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+ </div>
+
+
+
+<!-- footer -->
+
+<footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container text-md-start">
+    <div class="row">
+      
+      <!-- Column 1: Company Info -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Company</h5>
+        <p>We are dedicated to providing the best service and products to our customers worldwide.</p>
+      </div>
+      
+      <!-- Column 2: Quick Links -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Services</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 3: Social Media -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Follow Us</h5>
+        <a href="#" class="text-light me-3"><i class="bi bi-facebook" style="font-size: 24px;"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-linkedin" style="font-size: 24px;"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-envelope" style="font-size: 24px;"></i></a>
+      </div>
+      
+      <!-- Column 4: Newsletter Subscription -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Subscribe</h5>
+        <p>Subscribe to our newsletter for the latest updates.</p>
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Enter email" aria-label="Email" aria-describedby="button-addon2">
+            <button class="btn btn-warning" type="button" id="button-addon2">Subscribe</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="text-center pt-3">
+      <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+      
+      <!--Js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
