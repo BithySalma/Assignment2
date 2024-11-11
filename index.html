@@ -31,22 +31,25 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link text-warning"  aria-current="page" href="#">HOME</a>
+          <a class="nav-link text-warning"  aria-current="page" href="#home">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning"  href="#">ABOUT</a>
+          <a class="nav-link text-warning"  href="#about">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning"  href="#">CAUSES</a>
+          <a class="nav-link text-warning"  href="#causes">CAUSES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning"  href="#">GALLERY</a>
+          <a class="nav-link text-warning"  href="#donators">DONATORS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning" href="#">BLOG</a>
+          <a class="nav-link text-warning"  href="#gallery">GALLERY</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning" href="#">CONTACT</a>
+          <a class="nav-link text-warning" href="#blog">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="#contact">CONTACT</a>
         </li>
         <li class="nav-item">
           <button class="bg-warning" type="button" style="color: rgb(4, 4, 4); border: 2px solid #fdfcfc; border-radius: 5px; padding: 5px 15px;">Donate Now</button>
@@ -57,14 +60,14 @@
 </nav>
 
 <!-- Hero Section with Carousel -->
-<div id="carouselExampleCaptions" class="carousel slide">
+<div  id="carouselExampleCaptions" class="carousel slide" style="padding-bottom:3%;">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
 
-  <div class="carousel-inner">
+  <div id="home" class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/banner1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
@@ -106,8 +109,8 @@
     
 
         <!-- About-->
-        <div class="container text-center custom-mt custom-mb" style="padding-bottom:8%;">
-          <div class="row">
+        <div id="about" class="container text-center custom-mt custom-mb" style="padding-bottom:8%;">
+          <div  class="row">
             <div class="col">
               <p class="col fs-1 text-start">About Us</p>
               <p class="text-start">we are a compassionate community dedicated to making a 
@@ -131,7 +134,7 @@
 
               <!-- Our Causes -->
 
-              <div class="causes-container" style="margin-bottom: 10%;">
+              <div id="causes" class="causes-container" style="margin-bottom: 10%;">
                 <div>
                   <p class="fs-1 text-start text-center">Our Causes</p>
                   <p class="text-center">We tackle critical issues like clean water access, education, healthcare, and poverty. Each cause aims to create 
@@ -188,17 +191,14 @@
               
                <!-- Our Donators -->
 
-               <div class="donate-container" style="margin-bottom: 8%;">
+               <div id="donators" class="donate-container" style="margin-bottom: 8%;">
                 <div>
                   <p class="fs-1 text-start text-center">Our Donators</p>
                   <p class="text-center">Our donors are the backbone of our mission.
-                     With their generous contributions,
-                      we’re able to support communities in need,
-                       providing essential resources, education, 
-                       and opportunities for a better future.
-                        Their kindness and dedication inspire us every day,
-                         and together, we’re making a lasting impact 
-                         on lives around the world.</p>
+                     With their generous contributions, 
+                     we’re able to support communities in need, 
+                     providing essential resources, education, and 
+                     opportunities for a better future.</p>
                 </div>
               </div>
             
@@ -252,7 +252,7 @@
    
    <!-- Our Gallery -->
 
-  <div class="gallery-container" style="margin-bottom: 8%; margin-top: 8%;">
+  <div id="gallery" class="gallery-container" style="margin-bottom: 8%; margin-top: 8%;">
     <div>
         <p class="fs-1 text-center">Our Gallery</p>
         <p class="text-center">Capturing moments of hope, change, and community impact.</p>
@@ -287,22 +287,14 @@
 
  <!-- Our Blog -->
 
- <div class="blog-container" style="margin-bottom: 8%;">
+ <div id="blog" class="blog-container" style="margin-bottom: 8%;">
   <div>
     
     <p class="fs-1 text-start text-center">Our Blogs</p>
-    <p class="text-center">A charity-focused blog paragraph highlights the impact 
-      and importance of giving back to the community, shedding light
-       on various charitable causes, initiatives, or 
-       stories of individuals making a difference. 
-       This type of content often aims to inspire readers
-        to take action, whether by volunteering, donating,
-         or spreading awareness. It emphasizes empathy, community
-          support, and the positive change that collective efforts 
-          can bring to those in need. By using real-world examples,
-           statistics, or testimonials, these paragraphs connect with
-            readers on an emotional level, encouraging a sense of 
-            purpose and social responsibility</p>
+    <p class="text-center">A charity-focused blog paragraph highlights 
+      the importance of giving back, inspiring readers to volunteer, 
+      donate, or spread awareness. It emphasizes empathy, community support,
+       and the positive change collective efforts can bring to those in need.</p>
   </div>
 </div>
 
@@ -359,7 +351,7 @@
 
 <!-- Contact -->
 
-<div class="contact-container" style="margin-bottom: 8%;">
+<div id="contact" class="contact-container" style="margin-bottom: 8%;">
   <div>
     
     <p class="fs-1 text-start text-center">Contact Us</p>
